@@ -1,0 +1,28 @@
+{"intents": [
+
+  {"tag":  "greetings",
+  "patterns": ["hello","hey","good day","good afternoon","what's up?","how is it going?","yoooh"],
+  "response": ["hello","hey","what can i do for you ?"," Hi i'm fine , what's up with you ?"]
+  },
+
+  {"tag": "name",
+  "patterns": ["what's your name?","how do i call you?","to whom am i talking to ?","who are you?","do you have a name ","did anyone give you a name ?","  you have a name right "],
+  "response": ["I'm name is ChaBot version1 "," You can call me ChaBot version1"," i am  your assistant, you can call me ChatBot version2 ?"," yes i do have a name , i'm ChatBot version1 ?"]
+  },
+
+  {"tag": "user",
+     "response": ["Help me improve the service by answering thi question : Are you a Student, applicant , or an visitor "],
+     "patterns": ["student","applicant","visitor"]
+
+  },
+
+  
+
+ {"tag": "information",
+  "patterns": ["I need assistance","I need Help ","I need more information"],
+  "response": ["For applicant, registration is for the 15th 07, 2022","For Student, You need to register again ","For visitor please visite our   Website www.nust.na"]
+ }
+
+
+
+]}
